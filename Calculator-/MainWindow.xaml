@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <DockPanel>
-            <StackPanel Height="300" Width="500">
+            <StackPanel Height="200" Width="500">
                 <TextBlock Text="kader" FontSize="100"></TextBlock>
             </StackPanel>
-            <StackPanel>
-                
+            <StackPanel Height="200" Width="200">
+                <TextBlock Text="kader"></TextBlock>
             </StackPanel>
         </DockPanel>
     </Grid>
