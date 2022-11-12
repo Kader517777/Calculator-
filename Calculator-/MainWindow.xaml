@@ -5,13 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MinHeight="450" MinWidth="430" MaxHeight="430" MaxWidth="800">
     <Grid>
         <DockPanel Height="50" Margin="10,10,10,10" VerticalAlignment="Top">
-            <TextBlock Height="45"/>
+            <Border BorderBrush="BlueViolet" BorderThickness="2,2,2,2">
+                <TextBlock Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28"/>
+            </Border>
         </DockPanel>
         <DockPanel>
-            
+            <DockPanel Height="40" >
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+            </DockPanel>
+            <DockPanel>
+                
+            </DockPanel>
         </DockPanel>
     </Grid>
 </Window>
