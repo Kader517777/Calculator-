@@ -9,25 +9,25 @@
     <Grid Margin="0,0,0,-2" Width="422">
 
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         
             <!--This is Number section-->
 
-        <DockPanel Height="50" Margin="10,10,10,10" VerticalAlignment="Top" Grid.Row="0">
+        <DockPanel Height="50"  VerticalAlignment="Top" Grid.Row="0">
             <Border BorderBrush="BlueViolet" BorderThickness="2,2,2,2">
-                <TextBlock Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28"/>
+                <TextBlock Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28" Margin="5,5,5,5"/>
             </Border>
         </DockPanel>
         <DockPanel Grid.Row="1">
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Height="40"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
