@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Calculator_
 {
     /// <summary>
@@ -27,13 +28,51 @@ namespace Calculator_
 
 
         int first, second;
+        char op;
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_point(object sender, RoutedEventArgs e)
         {
 
         }
 
-        char op;
+        private void Button_divided(object sender, RoutedEventArgs e)
+        {
+            first = Int32.Parse(maintext.Text);
+            op = '/';
+            
+            
+        }
+        
+        
+
+        private void Button_into(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_minus(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_plus(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Equal(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            maintext.Text = button.Content.ToString();
+            second = Int32.Parse(maintext.Text);
+        }
+
+        
 
     }
 }

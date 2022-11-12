@@ -20,7 +20,7 @@
 
         <DockPanel Height="50"  VerticalAlignment="Top" Grid.Row="0">
             <Border BorderBrush="BlueViolet" BorderThickness="2,2,2,2">
-                <TextBlock Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28" Margin="5,5,5,5"/>
+                <TextBlock x:Name="maintext" Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28" Margin="5,5,5,5"/>
             </Border>
         </DockPanel>
         
@@ -30,17 +30,17 @@
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="." FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Height="40" Click="Button_."/>
+                        <Button Width="100" Content="." FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Height="40" Click="Button_point"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="0" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_0"/>
+                        <Button Width="100" Content="0" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="/" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Divided"/>
+                        <Button Width="100" Content="/" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_divided"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
@@ -57,17 +57,17 @@
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_7"/>
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="8" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_8"/>
+                        <Button Width="100" Content="8" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="9" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_9"/>
+                        <Button Width="100" Content="9" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
@@ -84,17 +84,17 @@
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="4" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_4"/>
+                        <Button Width="100" Content="4" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="5" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_5"/>
+                        <Button Width="100" Content="5" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="6" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_6"/>
+                        <Button Width="100" Content="6" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
@@ -111,17 +111,17 @@
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="1" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_1"/>
+                        <Button Width="100" Content="1" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="2" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_2" />
+                        <Button Width="100" Content="2" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click" />
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="3" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_3"/>
+                        <Button Width="100" Content="3" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Click"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
