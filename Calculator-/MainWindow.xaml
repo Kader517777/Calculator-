@@ -5,14 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator_"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="450" MinWidth="430" MaxHeight="430" MaxWidth="800">
-    <Grid>
-        <DockPanel Height="50" Margin="10,10,10,10" VerticalAlignment="Top">
+        Title="MainWindow" MinHeight="450" MinWidth="430" MaxHeight="430" MaxWidth="450">
+    <Grid Margin="0,0,0,-2" Width="422">
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+            <!--This is Number section-->
+
+        <DockPanel Height="50" Margin="10,10,10,10" VerticalAlignment="Top" Grid.Row="0">
             <Border BorderBrush="BlueViolet" BorderThickness="2,2,2,2">
                 <TextBlock Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28"/>
             </Border>
         </DockPanel>
-        <DockPanel>
+        <DockPanel Grid.Row="1">
             <DockPanel Height="40" >
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
@@ -35,8 +46,29 @@
                     </Border>
                 </DockPanel>
             </DockPanel>
-            <DockPanel>
-                
+        </DockPanel>
+        <DockPanel Grid.Row="2">
+            <DockPanel Height="40" >
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
+                <DockPanel Margin="0,0,10,0">
+                    <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
+                        <Button Width="100" Content="7" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" />
+                    </Border>
+                </DockPanel>
             </DockPanel>
         </DockPanel>
     </Grid>
