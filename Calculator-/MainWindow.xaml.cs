@@ -24,5 +24,16 @@ namespace Calculator_
         {
             InitializeComponent();
         }
+
+
+        int first, second;
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        char op;
+
     }
 }
