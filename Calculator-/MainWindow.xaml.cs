@@ -21,58 +21,46 @@ namespace Calculator_
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        double first, second = 0;
+        char op;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
 
-        int first, second;
-        char op;
+        
 
         private void Button_point(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_divided(object sender, RoutedEventArgs e)
+        private void Button_OPERATOR(object sender, RoutedEventArgs e)
         {
-            first = Int32.Parse(maintext.Text);
-            op = '/';
-            
-            
-        }
-        
-        
-
-        private void Button_into(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_minus(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_plus(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Equal(object sender, RoutedEventArgs e)
-        {
-
+            maintext.Clear();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
-            maintext.Text = button.Content.ToString();
-            second = Int32.Parse(maintext.Text);
+            
+            
+            try
+            {
+                Button button = sender as Button;
+                maintext.Text = maintext.Text + button.Content;
+                maintext.Text = maintext.Text.ToString();
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
-        
+       
 
     }
 }

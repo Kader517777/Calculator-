@@ -20,7 +20,7 @@
 
         <DockPanel Height="50"  VerticalAlignment="Top" Grid.Row="0">
             <Border BorderBrush="BlueViolet" BorderThickness="2,2,2,2">
-                <TextBlock x:Name="maintext" Height="45" Text="f" VerticalAlignment="Center" FontWeight="Bold" FontSize="28" Margin="5,5,5,5"/>
+                <TextBox x:Name="maintext" Height="45" Text="" VerticalAlignment="Center" FontWeight="Bold" FontSize="28" Margin="5,5,5,5"/>
             </Border>
         </DockPanel>
         
@@ -40,12 +40,12 @@
                 </DockPanel>
                 <DockPanel Margin="0,0,10,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="/" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_divided"/>
+                        <Button Width="100" Content="/" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_OPERATOR"/>
                     </Border>
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="*" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_into"/>
+                        <Button Width="100" Content="*" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_OPERATOR"/>
                     </Border>
                 </DockPanel>
             </DockPanel>
@@ -72,7 +72,7 @@
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="-" FontSize="22" FontWeight="Bold"  Foreground="BlueViolet" Click="Button_minus"/>
+                        <Button Width="100" Content="-" FontSize="22" FontWeight="Bold"  Foreground="BlueViolet" Click="Button_OPERATOR"/>
                     </Border>
                 </DockPanel>
             </DockPanel>
@@ -99,7 +99,7 @@
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="+" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_plus"/>
+                        <Button Width="100" Content="+" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_OPERATOR"/>
                     </Border>
                 </DockPanel>
             </DockPanel>
@@ -126,7 +126,7 @@
                 </DockPanel>
                 <DockPanel Margin="0,0,0,0">
                     <Border BorderBrush="BlueViolet" BorderThickness="1,1,1,1">
-                        <Button Width="100" Content="=" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_Equal"/>
+                        <Button Width="100" Content="=" FontSize="22" FontWeight="Bold" Foreground="BlueViolet" Click="Button_OPERATOR"/>
                     </Border>
                 </DockPanel>
             </DockPanel>
